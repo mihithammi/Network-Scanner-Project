@@ -16,7 +16,7 @@ For example:
 
 ## How to Install?
 ```
-git clone https://github.com/mihithammi/Network-Scanner-Project.git
+git clone https://github.com/mihithammi/Network_Scanner_Project.git
 cd Network-Scanner-Project
 ```
 
