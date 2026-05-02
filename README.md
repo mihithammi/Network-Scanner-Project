@@ -70,7 +70,8 @@ This scanner is built in four phases as required by the assignment.
 Only scan networkds and computers that you own or have written permission to scan. Unauthorised scanning may be illegal.
 This tool is for authorised internal auditing and education only.
 
-## Troubleshooting **Problem: "python is not recognized"** Solution: Python is not added to PATH. Reinstall Python and tick "Add Python to PATH" during setup. **Problem: Scanner shows nothing, no error** Solution: Check the last two lines of scanner.py are: ``` if __name__ == "__main__": main() ``` These lines must have no extra spaces at the start. **Problem: "git is not recognized"** Solution: Git is not installed. Download from git-scm.com and install with default options. **Problem: Push rejected on git push** Solution: Use your Personal Access Token as the password, not your real GitHub password.
+## Troubleshooting 
+Problem: "python is not recognized"** Solution: Python is not added to PATH. Reinstall Python and tick "Add Python to PATH" during setup. Problem: Scanner shows nothing, no error** Solution: Check the last two lines of scanner.py are: ``` if __name__ == "__main__": main() ``` These lines must have no extra spaces at the start. Problem: "git is not recognized"** Solution: Git is not installed. Download from git-scm.com and install with default options. Problem: Push rejected on git push. Solution: Use your Personal Access Token as the password, not your real GitHub password.
 
 
 ## Authors
