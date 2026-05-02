@@ -1,0 +1,13 @@
+Group 12 - Network Scanner
+This project uses only Python standard library modules.
+No external packages need to be installed.
+
+Python version required: 3.10 or higher
+
+Built-in modules used:
+   socket             - making TCP connections to ports
+   ipaddress          - parsing IP addresses and subnets
+   argparse           - reading command line arguments
+   threading          - thread lock for safe printing
+   concurrent.futures - ThreadPoolExecutor for multi-threading
+   datetime           - recording scan start and end time
