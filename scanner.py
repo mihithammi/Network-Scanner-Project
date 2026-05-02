@@ -23,7 +23,9 @@ def scan_port(host,port,timeout):
         sock.settimeout(timeout) #If no answer in X seconds, Give up.
         result = sock.connect_ex((host,port))
         sock.close()
-
+        # A return value of 0 means the TCP handshake succeeded
+# This means the port is actively listening for connections
+# Any non-zero value means closed, filtered or unreachable
         #Connect_ex return 0 if connected.
         if result == 0:
             return(host,port,True)
@@ -31,7 +33,9 @@ def scan_port(host,port,timeout):
             return(host,port,False)
     except Exception:
         return(host,port,False)   
-
+# Common port-to-service mappings:
+# Port 21=FTP, 22=SSH, 23=Telnet, 25=SMTP
+# Port 80=HTTP, 443=HTTPS, 3306=MySQL, 8080=HTTP-alt
 # FUNCTION 2: Get the name of a Service on a port.
 def get_service(port):
     try:
