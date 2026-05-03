@@ -71,18 +71,14 @@ Only scan networkds and computers that you own or have written permission to sca
 This tool is for authorised internal auditing and education only.
 
 ## Troubleshooting 
-Problem: "python is not recognized". Solution: Python is not added to PATH. Reinstall Python and tick "Add Python to PATH" during setup.
-Problem: Scanner shows nothing, no error. Solution: Check the last two lines of scanner.py are: ``` if __name__ == "__main__": main() ``` These lines must have no extra spaces at the start.
-Problem: "git is not recognized" Solution: Git is not installed. Download from git-scm.com and install with default options.
-Problem: Push rejected on git push. Solution: Use your Personal Access Token as the password, not your real GitHub password.
-Problem: "Failed to establish connection" or timeout. Solution: Check your firewall/antivirus. Try running with administrator privileges.
-Problem: VS Code cannot find Python interpreter .Solution:press `Ctrl+Shift+P`, search "Python: Select Interpreter", and choose the correct Python path.
-Problem: Git merge conflicts . Solution: Use `git pull` first to get latest changes, fix conflicts in files, then `git add .` and `git commit -m "resolved conflict"
-Problem: "Socket error" or "Permission error" on Linux/Mac.  Solution: Run with `sudo` (e.g., `sudo python scanner.py`)
-Problem: Scanner takes too long.   Solution: Reduce the IP range or increase timeout values in the script.
-Problem: Timeout or connection refused . Solution: Disable firewall temporarily or allow Python through Windows Defender Firewall.
+*Problem: "python is not recognized"*
+    Solution: Python is not added to PATH. Reinstall Python and tick "Add Python to PATH" during setup. 
 
+*Problem: Scanner shows nothing, no error*
+    Solution: Check the last two lines of [scanner.py](http://scanner.py) are:  if __name__ == "__main__": main()  These lines must have no extra spaces at the start. 
 
+*Problem: "git is not recognized"*
+    Solution: Git is not installed. Download from [git-scm.com](http://git-scm.com) and install with default options. **Problem: Push rejected on git push** Solution: Use your Personal Access Token as the password, not your real GitHub password. (I have update this part in organized way. Now i need commit details to it)
 
 ## Authors
 *Group 12*
