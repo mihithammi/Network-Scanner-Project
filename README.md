@@ -80,7 +80,12 @@ This tool is for authorised internal auditing and education only.
 *Problem: "git is not recognized"*
     Solution: Git is not installed. Download from [git-scm.com](http://git-scm.com) and install with default options. **Problem: Push rejected on git push** Solution: Use your Personal Access Token as the password, not your real GitHub password. (I have update this part in organized way. Now i need commit details to it)
 
-# Testing The tool was tested in the following scenarios: **Test 1 — Local machine scan:** ``` python scanner.py 127.0.0.1 -p 1-1024 ``` Result: Scanner ran successfully with progress bar displayed. Open ports were highlighted in green with service names shown. **Test 2 — Specific ports scan:** ``` python scanner.py 127.0.0.1 -p 22,80,443,8080 -t 100 ``` Result: Only the specified ports were checked. Scan completed faster due to fewer ports. **Test 3 — Help menu:** ``` python scanner.py --help ``` Result: All available options displayed correctly.
+## Testing The tool was tested in the following scenarios: ## 
+**Test 1 — Local machine scan:** ``` python scanner.py 127.0.0.1 -p 1-1024 ``` Result: Scanner ran successfully with progress bar displayed. Open ports were highlighted in green with service names shown.
+
+**Test 2 — Specific ports scan:** ``` python scanner.py 127.0.0.1 -p 22,80,443,8080 -t 100 ``` Result: Only the specified ports were checked. Scan completed faster due to fewer ports. 
+
+**Test 3 — Help menu:** ``` python scanner.py --help ``` Result: All available options displayed correctly.
 
 ## Authors
 *Group 12*
